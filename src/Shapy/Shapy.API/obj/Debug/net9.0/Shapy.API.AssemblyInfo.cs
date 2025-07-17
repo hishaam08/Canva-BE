@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Shapy.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+835e0327543fe2437818ba90545b127c0208fa3c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f91f731236a486f4297ef7c45756d4d22e27f4b1")]
 [assembly: System.Reflection.AssemblyProductAttribute("Shapy.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Shapy.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
