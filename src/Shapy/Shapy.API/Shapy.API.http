@@ -1,0 +1,6 @@
+@Shapy.API_HostAddress = http://localhost:5287
+
+GET {{Shapy.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
