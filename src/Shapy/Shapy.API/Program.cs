@@ -10,6 +10,8 @@ builder.Services.AddControllers();
 builder.Services.AddOpenApi();
 builder.Services.AddHttpClient();
 
+builder.WebHost.UseUrls("http://+:5286");
+
 
 // Configure JWT Authentication
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
@@ -69,7 +71,6 @@ if (app.Environment.IsDevelopment())
     // app.MapOpenApi();
 }
 
-app.UseHttpsRedirection();
 app.UseCors(myAllowedOrigins);
 app.UseAuthentication();
 app.UseAuthorization();
